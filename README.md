@@ -8,6 +8,56 @@ npm install --save-dev tachyons-visibility
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+
+   VISIBILITY
+
+*/
+
+
+/*
+    Text that is hidden but accessible
+    Ref: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*/
+
+.clip {
+  position: fixed !important;
+  _position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@include break(not-small) {
+  .clip-ns {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+
+@include break(medium) {
+  .clip-m {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+
+@include break(large) {
+  .clip-l {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
