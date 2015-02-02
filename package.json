@@ -2,7 +2,7 @@
   "name": "tachyons-visibility",
   "version": "0.3.0",
   "style": "tachyons-visibility.css",
-  "homepage": "http://mrmrs.io/tachyons-visibility",
+  "homepage": "http://github.com/mrmrs/tachyons-visibility",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
