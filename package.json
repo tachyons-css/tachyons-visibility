@@ -1,6 +1,6 @@
 {
   "name": "tachyons-visibility",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "style": "tachyons-visibility.css",
   "homepage": "http://github.com/mrmrs/tachyons-visibility",
   "description": "Performance based css module.",
