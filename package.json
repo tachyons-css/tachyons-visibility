@@ -2,15 +2,15 @@
   "name": "tachyons-visibility",
   "version": "1.0.1",
   "style": "tachyons-visibility.css",
-  "homepage": "http://github.com/mrmrs/tachyons-visibility",
+  "homepage": "http://github.com/tachyons-css/tachyons-visibility",
   "description": "Performance based css module.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-visibility.git"
+    "url": "http://github.com/tachyons-css/tachyons-visibility.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-visibility/issues",
+    "url": "https://github.com/tachyons-css/tachyons-visibility/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
