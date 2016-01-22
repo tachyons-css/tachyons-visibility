@@ -1,4 +1,4 @@
-# tachyons-visibility 0.4.0
+# tachyons-visibility 1.0.3
 
 Performance based css module.
 

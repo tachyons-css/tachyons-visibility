@@ -1,18 +1,17 @@
 {
   "name": "tachyons-visibility",
-  "version": "1.0.2",
-  "style": "tachyons-visibility.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-visibility",
+  "version": "1.0.3",
+  "style": "src/tachyons-visibility.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-visibility.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-visibility/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-visibility",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",
