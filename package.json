@@ -19,9 +19,15 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^0.3.3"
+    "tachyons-cli": "^0.3.3",
+    "watch": "^0.17.1"
   },
   "scripts": {
-    "start": "tachyons src/tachyons-visibility.css > css/tachyons-visibility.css && tachyons src/tachyons-visibility.css --minify > css/tachyons-visibility.min.css && tachyons src/tachyons-visibility.css --generate-docs --package=../../package.json > readme.md"
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-visibility.css > css/tachyons-visibility.css",
+    "build:minify": "tachyons src/tachyons-visibility.css --minify > css/tachyons-visibility.min.css",
+    "build:docs": "tachyons src/tachyons-visibility.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
   }
 }
