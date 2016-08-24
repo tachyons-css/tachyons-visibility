@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-280 | 4 | 16
+279 | 4 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -84,13 +84,13 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
     Ref: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
 */
 .clip { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .clip-ns { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .clip-m { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .clip-l { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
 }
 ```
