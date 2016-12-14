@@ -2,6 +2,7 @@
   "name": "tachyons-visibility",
   "version": "2.0.3",
   "style": "src/tachyons-visibility.css",
+  "main": "src/tachyons-visibility.css",
   "description": "Performance based css module.",
   "keywords": [
     "tachyons",
