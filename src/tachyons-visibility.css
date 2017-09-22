@@ -1,3 +1,4 @@
+@custom-media --breakpoint-small screen and (max-width:30em);
 @custom-media --breakpoint-not-small screen and (min-width: 30em);
 @custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
@@ -19,6 +20,15 @@
   _position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media (--breakpoint-small) {
+  .clip-xs {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
 }
 
 @media (--breakpoint-not-small) {
