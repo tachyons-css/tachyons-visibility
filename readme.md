@@ -1,10 +1,10 @@
-# tachyons-visibility 2.0.5
+# tachyons-visibility 2.0.6
 
 Performance based css module.
 
-#### Stats
+### Stats
 
-279 | 4 | 16
+274 | 4 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-visibility@2.0.5/css/tachyons-visibility.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-visibility@2.0.6/css/tachyons-visibility.min.css" />
 ```
 
 ##### Locally
@@ -85,13 +85,13 @@ Running `$ npm start` will process the source css and place the built css in the
 */
 .clip { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
 @media screen and (min-width: 30em) {
- .clip-ns { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
+ .clip-ns { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
- .clip-m { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
+ .clip-m { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
 }
 @media screen and (min-width: 60em) {
- .clip-l { position: fixed !important; position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
+ .clip-l { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); /* IE6, IE7 */ clip: rect( 1px, 1px, 1px, 1px ); }
 }
 ```
 
